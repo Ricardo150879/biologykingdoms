@@ -1,0 +1,108 @@
+<style>
+ul, #myUL {
+  list-style-type: none;
+}
+
+#myUL {
+  margin: 0;
+  padding: 0;
+}
+
+.caret {
+  cursor: pointer;
+  -webkit-user-select: none; /* Safari 3.1+ */
+  -moz-user-select: none; /* Firefox 2+ */
+  -ms-user-select: none; /* IE 10+ */
+  user-select: none;
+}
+
+.caret::before {
+  content: "\25B6";
+  color: black;
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.caret-down::before {
+  -ms-transform: rotate(90deg); /* IE 9 */
+  -webkit-transform: rotate(90deg); /* Safari */'
+  transform: rotate(90deg);  
+}
+
+.nested {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+td{
+color: purple;
+font-weight: bold;
+border: 1px solid black;
+}
+
+.darkblue{
+    color:darkblue;
+}
+
+body{
+background-color:azure;
+font-size:26px;
+font-weight:bold;
+}
+
+.myframe{
+overflow-y:scroll; 
+height:500px; 
+font-weight: bold;
+}
+
+.header {
+  font-size:48px;
+  //position: sticky;
+  //top: 0;
+  padding: 10px 16px;
+  background: #ccc;
+  color:#ffffff;
+  text-align:center;
+}
+
+h1 {  
+  position: relative;    
+  font-family: "Raleway", Cursive;  
+  font-weight: 900;  
+  font-size: 40px;  
+  background: linear-gradient(to right, rgba(0,255,4,0), rgba(0,255,0,0.5));
+  color: brown;    
+  text-align: center;  
+}
+
+h4 {  
+  position: relative;    
+  font-family: "Raleway", Cursive;  
+  font-weight: 900;  
+  font-size: 23px;  
+  color: #757575;    
+  text-align: center;  
+}
+
+p, #myP{color: #000080;
+}
+
+#myP{color: green;
+}
+
+button{
+//text-align:center;
+width:150px;
+height:45px;
+font-size:23px;
+font-weight:bold;
+padding:2px 2px;
+marging:2px 2px;
+background: linear-gradient(to right, rgba(0,4,255,0), rgba(0,0,255,0.5));
+}
+
+</style>
