@@ -105,4 +105,14 @@ marging:2px 2px;
 background: linear-gradient(to right, rgba(0,4,255,0), rgba(0,0,255,0.5));
 }
 
+prompt{
+ cursor: pointer;
+ text-align:left;
+}
+
+img{
+max-width: 100%;
+width: 100%;
+box-sizing: border-box; /* Inclui padding e border na largura total */
+}
 </style>
